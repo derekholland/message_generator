@@ -7,6 +7,6 @@ let randomMessages = [
 // console.log(randomMessages[2]);
 
 //generate a random number between the indexes of the array 0 - array.length
-// console.log(randomMessages.length - 1)
 let randomIndex = Math.floor(Math.random() * randomMessages.length)
-console.log(randomIndex); 
+let randomQuote = randomMessages[randomIndex]
+console.log(randomQuote)
